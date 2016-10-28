@@ -18,7 +18,7 @@ module.exports = function (options) {
             return ;
         }
 
-        file.contents = new Buffer(atkDRInstance.parse(file, encoding));
+        file.contents = new Buffer(atkDRInstance.resolve(file, encoding));
 
         next(null, file);
 
