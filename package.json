@@ -1,6 +1,6 @@
 {
   "name": "gulp-atk",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "An atk-based gulp plugin",
   "main": "src/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/bullub/gulp-atk#readme",
   "dependencies": {
-    "atk": "0.0.4",
+    "atk": "*",
     "through2": "^2.0.1"
   }
 }
